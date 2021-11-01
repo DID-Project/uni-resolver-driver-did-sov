@@ -29,8 +29,8 @@ USER jetty
 # variables
 
 ENV uniresolver_driver_did_sov_libIndyPath=
-ENV uniresolver_driver_did_sov_poolConfigs=_;./sovrin/mainnet.txn;staging;./sovrin/stagingnet.txn;builder;./sovrin/buildernet.txn;danube;./sovrin/danube.txn;idu;./sovrin/idunion.txn
-ENV uniresolver_driver_did_sov_poolVersions=_;2;staging;2;builder;2;danube;2;idu;2
+ENV uniresolver_driver_did_sov_poolConfigs=_;./sovrin/mainnet.txn;localhost;./sovrin/localhost2.txn;
+ENV uniresolver_driver_did_sov_poolVersions=_;2;localhost;2;
 ENV uniresolver_driver_did_sov_walletName=default
 
 # copy from build stage
